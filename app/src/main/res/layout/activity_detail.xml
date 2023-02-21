@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="550dp">
+
+  <ImageView
+    android:id="@+id/actor_image"
+    android:layout_width="185dp"
+    android:layout_height="228dp"
+    android:layout_marginStart="12dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.031"
+    tools:srcCompat="@tools:sample/avatars" />
+
+  <ImageView
+    android:id="@+id/movie_image"
+    android:layout_width="197dp"
+    android:layout_height="230dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.939"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.025"
+    tools:srcCompat="@tools:sample/avatars" />
+
+  <TextView
+    android:id="@+id/name"
+    android:layout_width="162dp"
+    android:layout_height="32dp"
+    android:text="Name :"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.041"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.479" />
+
+  <TextView
+    android:id="@+id/known"
+    android:layout_width="382dp"
+    android:layout_height="36dp"
+    android:text="Known For :"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.448"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.57" />
+
+  <TextView
+    android:id="@+id/description"
+    android:layout_width="381dp"
+    android:layout_height="159dp"
+    android:maxLines="20"
+    android:text="Description"
+    android:textSize="15dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.466"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.874"
+    tools:ignore="TextSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

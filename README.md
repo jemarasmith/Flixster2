@@ -1,11 +1,11 @@
 # Flixster2
-# Android Project 4 - *Name of App Here*
+# Android Project 4 - *Flixster 2*
 
 Submitted by: **Je' Mara Smith**
 
-**Flixster 2** is a movie browsing app that allows users to browse ... [TODO] 
+**Flixster 2** is a movie browsing app that allows users to browse [POPULAR ACTOR]
 
-Time spent: **11** hours spent in total
+Time spent: **15** hours spent in total
 
 ## Required Features
 

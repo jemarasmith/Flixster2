@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="https://imgur.com/a/hlmODMf.gif"/>
+<img src='https://imgur.com/a/hlmODMf.gif'/>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
